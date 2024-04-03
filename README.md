@@ -1,6 +1,11 @@
 # Maze-Solver
 ## Basic Overview
 This application generates a random maze of provided dimensions and finds the solution path from the start to the end of the maze.
+## Demo
+Output when running MazeMain.java:
+
+<img width="337" alt="Maze Solver Demo" src="https://github.com/carsonmdd/Maze-Solver/assets/130185711/8e70fa2e-9383-4329-b3ef-cd8719d60a4d">
+
 ## Features
 - Generate a random maze
 - Solve a given maze
