@@ -37,7 +37,7 @@ public class MazeSolver {
             Cell current = queue.poll();
             if (!current.isVisited()) {
                 current.setVisited(true);
-                if (current.equals(maze[maze.length-1][maze[0].length-1])) {
+                if (current.equals(maze[rows-1][cols-1])) {
                     break;
                 }
                 List<Cell> neighbors = getUnvisitedNeighbors(current);
