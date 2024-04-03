@@ -7,9 +7,9 @@ Output when running MazeMain.java:
 <img width="337" alt="Maze Solver Demo" src="https://github.com/carsonmdd/Maze-Solver/assets/130185711/8e70fa2e-9383-4329-b3ef-cd8719d60a4d">
 
 ## Features
-- Generate a random maze
-- Solve a given maze
-- Draw a given maze by printing characters to the terminal
+- Generates a random maze
+- Solves a given maze
+- Draws a given maze by printing characters to the terminal
 ## Class Breakdown
 **Cell**
 - Represents a single cell of a maze
@@ -25,8 +25,9 @@ Output when running MazeMain.java:
 
 **Maze**
 - Higher-level class that represents a maze
-- Generates the maze upon initialization
-- Can solve and draw the maze
+- Generates the maze using the MazeGenerator class upon initialization
+- Can solve the maze using the MazeSolver class
+- Can draw the maze using the MazeDrawer class
 
 **MazeMain**
 - Consists of a main method with a simple example to run the program
