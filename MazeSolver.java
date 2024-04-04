@@ -60,7 +60,7 @@ public class MazeSolver {
         }
 
         Cell startCell = maze[0][0];
-        Cell endCell = maze[maze.length-1][maze[0].length-1];
+        Cell endCell = maze[rows-1][cols-1];
 
         startCell.setSolution();
         endCell.setSolution();
