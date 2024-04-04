@@ -19,6 +19,7 @@ Output when running MazeMain.java:
 
 **MazeSolver**
 - Solves a given maze by marking which cells belong to the solution path
+-   The solution path is the path from the top-left corner "S" to the bottom-right corner "E"
 
 **MazeDrawer**
 - Prints the given maze to the terminal
