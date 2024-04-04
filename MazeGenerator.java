@@ -92,7 +92,7 @@ public class MazeGenerator {
             unvisitedNeighbors.add(maze[row+1][col]);
         }
 
-        //Check west neighbor
+        // Check west neighbor
         if (col-1 >= 0 && !maze[row][col-1].isVisited()) {
             unvisitedNeighbors.add(maze[row][col-1]);
         }
@@ -101,7 +101,7 @@ public class MazeGenerator {
     }
 
     private void initializeCells() {
-        // Fills the maze with new cell objects
+        // Fills the maze with new Cell objects
         
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
