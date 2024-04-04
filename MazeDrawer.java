@@ -92,7 +92,7 @@ public class MazeDrawer {
     private void printSouthWall(int i, int j) {
         // Prints the characters for the south wall of the cell at the given coordinates
 
-        if (i+1 <= maze.length-1 && maze[i][j].isSolution() && maze[i+1][j].isSolution() && !maze[i][j].getSouthWall()) {
+        if (i+1 <= rows-1 && maze[i][j].isSolution() && maze[i+1][j].isSolution() && !maze[i][j].getSouthWall()) {
             System.out.print("# · ");
         } else if (maze[i][j].getSouthWall()) {
             System.out.print("# # ");
